@@ -2,6 +2,10 @@
 
 Painel HTML para importar uma planilha Excel e acompanhar certificados de treinamentos de empresas terceirizadas.
 
+## Objetivo
+
+Facilitar o acompanhamento de certificados assinados e pendentes, com filtros e indicadores para apoiar a gestão dos treinamentos.
+
 ## Como usar
 
 1. Baixe o repositório e abra `index.html` no navegador.
@@ -33,3 +37,14 @@ Cada linha válida é contada como um registro. O painel não elimina duplicidad
 - html2pdf.js 0.10.1
 
 Os avisos de licença das bibliotecas permanecem no arquivo distribuído. O painel mantém os elementos visuais e fontes incorporadas da versão original.
+
+## Estrutura
+
+- `index.html`: interface, estilos, lógica e bibliotecas incorporadas.
+- `.nojekyll`: arquivo de apoio à publicação estática.
+
+Não há etapa de compilação ou instalação de dependências para uso local.
+
+## Projeto relacionado
+
+[Dashboard de Treinamentos NR](https://github.com/romulogonzaga/dashboard_treinamentos): acompanhamento de assinatura e entrega por diretoria, área e gestor.
